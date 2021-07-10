@@ -4,7 +4,7 @@
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
 
-FROM        adoptopenjdk:8-jdk
+FROM        openjdk:8-jdk
 
 LABEL       author="Taylor Bakken" maintainer="gizmo0320@unleveledgaming.com"
 
