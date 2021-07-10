@@ -4,7 +4,7 @@
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
 
-FROM        openjdk:8-jdk-oracle
+FROM        openjdk:8-jdk-oraclelinux7
 
 LABEL       author="Taylor Bakken" maintainer="gizmo0320@unleveledgaming.com"
 
