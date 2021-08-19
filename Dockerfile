@@ -9,7 +9,7 @@ FROM        openjdk:8-jdk
 LABEL       author="Taylor Bakken" maintainer="gizmo0320@unleveledgaming.com"
 
 RUN apt-get update -y \
- && apt-get install -y curl ca-certificates openjfx npm nodejs ant openssl git tar sqlite fontconfig tzdata iproute2 \
+ && apt-get install -y curl ca-certificates openjfx npm nodejs ant openssl git tar sqlite fontconfig tzdata iproute2 libnetty-java \
  && useradd -d /home/container -m container
 
 USER        container
